@@ -15,13 +15,10 @@ local Window = Rayfield:CreateWindow({
    Icon = 108632720139222,
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = "SaturnHub",
+      FolderName = "AcityaHub",
       FileName = "DIG"
    },
-   Discord = {
-      Enabled = false,
-      Invite = "6UaRDjBY42",
-      RememberJoins = true
+   Discord = false
    },
    KeySystem = false
 })
