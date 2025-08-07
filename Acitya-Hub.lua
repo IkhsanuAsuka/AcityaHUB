@@ -19,7 +19,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "DIG"
    },
    Discord = {
-      Enabled = true,
+      Enabled = false,
       Invite = "6UaRDjBY42",
       RememberJoins = true
    },
