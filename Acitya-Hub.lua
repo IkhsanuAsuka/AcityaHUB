@@ -12,11 +12,11 @@ local Window = Rayfield:CreateWindow({
    Name = "AcityaHub",
    LoadingTitle = "DIG Discontinued Script",
    LoadingSubtitle = "by Hoshi",
-   Icon = 108632720139222,
+   Icon = 0,
    ConfigurationSaving = {
       Enabled = true,
       FolderName = "AcityaHub",
-      FileName = "DIG"
+      FileName = "DIG",
    },
    Discord = false
    },
@@ -314,7 +314,7 @@ local BuyAgainButton = MainTab:CreateButton({
                 Title = "Select a Charm",
                 Content = "You must choose a charm first.",
                 Duration = 3,
-                Image = 108632720139222
+                Image = 0
             })
         end
    end,
@@ -382,14 +382,14 @@ local MeteorButton = TeleportTab:CreateButton({
                 Title = "Teleport",
                 Content = "Teleported to Meteor.",
                 Duration = 3,
-                Image = 4483362458
+                Image = 0
             })
         else
             Rayfield:Notify({
                 Title = "Error",
                 Content = "Meteor not found.",
                 Duration = 3,
-                Image = 108632720139222
+                Image = 0
             })
         end
    end,
@@ -407,14 +407,14 @@ local MerchantButton = TeleportTab:CreateButton({
                 Title = "Teleport",
                 Content = "Teleported to Traveling Merchant.",
                 Duration = 3,
-                Image = 108632720139222
+                Image = 0
             })
         else
             Rayfield:Notify({
                 Title = "Error",
                 Content = "Traveling Merchant not found.",
                 Duration = 3,
-                Image = 108632720139222
+                Image = 0
             })
         end
    end,
